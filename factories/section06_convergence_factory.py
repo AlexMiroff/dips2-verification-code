@@ -37,13 +37,15 @@ def write_figures(rows, out):
     ax.axhline(6,color='#9c1f32',linestyle='--',linewidth=1.3,label='exact minimum = 6')
     ax.set(xlabel='Construction-sample size N',ylabel='Mean empirical minimum',ylim=(0,6.25))
     ax.legend(frameon=False,loc='lower right'); fig.tight_layout()
-    fig.savefig(out/'figure2_convergence.png',bbox_inches='tight'); plt.close(fig)
+    fig.savefig(out/'figure2_convergence.png',bbox_inches='tight')
+    fig.savefig(out/'figure2_convergence.svg',bbox_inches='tight'); plt.close(fig)
     fig,ax=plt.subplots(figsize=(7.2,4.2),dpi=180)
     ax.plot(xs,recovery,marker='o',linewidth=2.2,color='#153b6e',label='exact recovery')
     ax.plot(xs,[1-v for v in recovery],marker='s',linewidth=1.7,color='#9c1f32',label='underestimation')
     ax.set(xlabel='Construction-sample size N',ylabel='Frequency',ylim=(0,1.05))
     ax.legend(frameon=False,loc='center right'); fig.tight_layout()
-    fig.savefig(out/'figure3_recovery.png',bbox_inches='tight'); plt.close(fig)
+    fig.savefig(out/'figure3_recovery.png',bbox_inches='tight')
+    fig.savefig(out/'figure3_recovery.svg',bbox_inches='tight'); plt.close(fig)
 
 
 def main():
