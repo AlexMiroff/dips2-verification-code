@@ -1,1 +1,212 @@
-sed: can't read factory_closure_report.json: No such file or directory
+{
+  "repository_snapshot": "factory closure v17",
+  "factories": {
+    "section06_exact_formulations_factory.json": {
+      "factory": "section06_exact_formulations",
+      "enum_bnb_instances": 800,
+      "enum_bnb_agreement": 800,
+      "enum_bnb_qubo_instances": 200,
+      "triple_agreement": 200,
+      "closure": {
+        "phi5_pass": 204,
+        "phi5_fail": 120,
+        "phi6_pass": 324,
+        "witnesses": 120
+      },
+      "result": "PASS"
+    },
+    "section07_affine_certificates_factory.json": {
+      "factory": "section07_affine_certificates",
+      "certificates": [
+        {
+          "name": "certificate_1",
+          "status": "PASS",
+          "witness": null
+        },
+        {
+          "name": "certificate_2",
+          "status": "PASS",
+          "witness": null
+        },
+        {
+          "name": "certificate_3",
+          "status": "PASS",
+          "witness": null
+        },
+        {
+          "name": "certificate_4",
+          "status": "PASS",
+          "witness": null
+        },
+        {
+          "name": "certificate_5",
+          "status": "PASS",
+          "witness": null
+        },
+        {
+          "name": "certificate_6",
+          "status": "FAIL",
+          "witness": [
+            0,
+            1
+          ]
+        },
+        {
+          "name": "certificate_7",
+          "status": "FAIL",
+          "witness": [
+            0,
+            1
+          ]
+        },
+        {
+          "name": "certificate_8",
+          "status": "FAIL",
+          "witness": [
+            0,
+            1
+          ]
+        },
+        {
+          "name": "certificate_9",
+          "status": "FAIL",
+          "witness": [
+            0,
+            1
+          ]
+        }
+      ],
+      "minimum_full_recovery_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "horizon_bounds": [
+        {
+          "horizon": 1,
+          "exact_worst_error": "5/2",
+          "bound": "5/2"
+        },
+        {
+          "horizon": 2,
+          "exact_worst_error": "5",
+          "bound": "5"
+        },
+        {
+          "horizon": 3,
+          "exact_worst_error": "15/2",
+          "bound": "15/2"
+        },
+        {
+          "horizon": 4,
+          "exact_worst_error": "10",
+          "bound": "10"
+        },
+        {
+          "horizon": 5,
+          "exact_worst_error": "25/2",
+          "bound": "25/2"
+        },
+        {
+          "horizon": 6,
+          "exact_worst_error": "15",
+          "bound": "15"
+        },
+        {
+          "horizon": 7,
+          "exact_worst_error": "35/2",
+          "bound": "35/2"
+        },
+        {
+          "horizon": 8,
+          "exact_worst_error": "20",
+          "bound": "20"
+        },
+        {
+          "horizon": 9,
+          "exact_worst_error": "45/2",
+          "bound": "45/2"
+        },
+        {
+          "horizon": 10,
+          "exact_worst_error": "25",
+          "bound": "25"
+        }
+      ],
+      "matrix_description_state_comparisons": 6075,
+      "result": "PASS"
+    },
+    "section08_scenario_factory.json": {
+      "factory": "section08_scenario",
+      "matrix_pairs": 256,
+      "task_rows": 2,
+      "mode_words": 15,
+      "initial_states": 9,
+      "linear_trajectory_comparisons": 69120,
+      "offset_trajectory_comparisons": 69120,
+      "result": "PASS"
+    },
+    "section09_uncertainty_factory.json": {
+      "factory": "section09_uncertainty",
+      "generator_closure_agreements": 512,
+      "uncertainty_radii_checked": [
+        "0",
+        "1/2",
+        "1"
+      ],
+      "bounded_total_extreme_cases": 3060,
+      "horizons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "result": "PASS"
+    },
+    "section10_general_laws_factory.json": {
+      "factory": "section10_general_laws",
+      "exact_characteristic_evaluations": 1184,
+      "declared_cycle_configurations": 168,
+      "qubo_energy_cases": 64,
+      "quantum_device_run": false,
+      "result": "PASS"
+    },
+    "section11_composition_factory.json": {
+      "factory": "section11_composition",
+      "general_matrices": 60,
+      "two_contour_configurations": 144,
+      "exact_determinant_evaluations": 1248,
+      "result": "PASS"
+    },
+    "section12_channel_path_factory.json": {
+      "factory": "section12_channel_path",
+      "memory_recursion": 32,
+      "series_parallel": 40,
+      "feedback": 40,
+      "shared_path": 81,
+      "exact_determinant_evaluations": 648,
+      "result": "PASS"
+    },
+    "section13_distribution_factory.json": {
+      "factory": "section13_distribution",
+      "finite_joint_laws": 3,
+      "declared_grammars": 5,
+      "exact_output_laws_checked": 15,
+      "dependence_counterexample": "PASS",
+      "result": "PASS"
+    }
+  }
+}
