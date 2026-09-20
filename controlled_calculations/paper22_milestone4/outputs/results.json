@@ -1,0 +1,407 @@
+{
+  "protocol": "Milestone 2 + Corrigenda 1\u20132",
+  "results": [
+    {
+      "system": "SYSTEM_1_GAUSSIAN",
+      "task": "reconstruct observed three-channel vector",
+      "tolerance": 0.1,
+      "methods": [
+        {
+          "method": "FULL",
+          "d_payload": 3,
+          "test_rmse_per_channel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "test_rmse": 0.0,
+          "validation_rmse": 0.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": true
+        },
+        {
+          "method": "DIPS-5",
+          "d_payload": 3,
+          "test_rmse_per_channel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "test_rmse": 0.0,
+          "validation_rmse": 0.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": true
+        },
+        {
+          "method": "DIPS-6M",
+          "d_payload": 3,
+          "test_rmse_per_channel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "test_rmse": 0.0,
+          "validation_rmse": 0.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": true
+        },
+        {
+          "method": "PCA-1",
+          "d_payload": 1,
+          "test_rmse_per_channel": [
+            0.18724248466931226,
+            0.419358208589999,
+            0.3739086054666605
+          ],
+          "test_rmse": 0.3419204100464383,
+          "validation_rmse": 0.41425031505000154,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "PCA-2",
+          "d_payload": 2,
+          "test_rmse_per_channel": [
+            0.04463089152036104,
+            0.025100005954078786,
+            0.04799163237885364
+          ],
+          "test_rmse": 0.04051799417207149,
+          "validation_rmse": 0.03861490519494523,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": true
+        },
+        {
+          "method": "PCA-3",
+          "d_payload": 3,
+          "test_rmse_per_channel": [
+            2.0631398773320507e-16,
+            3.1057219050201504e-16,
+            4.897342821297976e-16
+          ],
+          "test_rmse": 3.5536845392765017e-16,
+          "validation_rmse": 3.2261737199149073e-16,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": true
+        }
+      ]
+    },
+    {
+      "system": "SYSTEM_2_KNOWN_FUNCTION",
+      "task": "reconstruct current response from current/past driver only",
+      "tolerance": 0.06,
+      "methods": [
+        {
+          "method": "PCA-1",
+          "d_payload": 1,
+          "test_rmse": 0.5732750567345664,
+          "validation_rmse": 0.5876726560630887,
+          "alpha": 1.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "PCA-2",
+          "d_payload": 2,
+          "test_rmse": 0.15543437468142074,
+          "validation_rmse": 0.13012893631005143,
+          "alpha": 1.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "PCA-3",
+          "d_payload": 3,
+          "test_rmse": 0.26027900191820935,
+          "validation_rmse": 0.16631507902916975,
+          "alpha": 1.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "PCA-4",
+          "d_payload": 4,
+          "test_rmse": 0.2317000639316841,
+          "validation_rmse": 0.1589517133448065,
+          "alpha": 1.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "PCA-5",
+          "d_payload": 5,
+          "test_rmse": 0.24023400052805358,
+          "validation_rmse": 0.16216539244345707,
+          "alpha": 1.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "PCA-6",
+          "d_payload": 6,
+          "test_rmse": 0.239794045123216,
+          "validation_rmse": 0.16517938528437703,
+          "alpha": 1.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "PCA-7",
+          "d_payload": 7,
+          "test_rmse": 0.2428051501182779,
+          "validation_rmse": 0.16619224070221086,
+          "alpha": 1.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "PCA-8",
+          "d_payload": 8,
+          "test_rmse": 0.24246905972232663,
+          "validation_rmse": 0.1709489416007515,
+          "alpha": 1.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "PCA-9",
+          "d_payload": 9,
+          "test_rmse": 0.24211622006380748,
+          "validation_rmse": 0.17351083374938583,
+          "alpha": 1.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "PCA-10",
+          "d_payload": 10,
+          "test_rmse": 0.2716536787323025,
+          "validation_rmse": 0.20494088047567,
+          "alpha": 1.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "PCA-11",
+          "d_payload": 11,
+          "test_rmse": 0.2853527145482992,
+          "validation_rmse": 0.2375761542790387,
+          "alpha": 1.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "PCA-12",
+          "d_payload": 12,
+          "test_rmse": 0.3057855161090185,
+          "validation_rmse": 0.25488581177494557,
+          "alpha": 1.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "PCA-13",
+          "d_payload": 13,
+          "test_rmse": 0.3014991623527105,
+          "validation_rmse": 0.281138385797277,
+          "alpha": 100.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "PCA-14",
+          "d_payload": 14,
+          "test_rmse": 0.3085411912364154,
+          "validation_rmse": 0.29656287616014554,
+          "alpha": 100.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "PCA-15",
+          "d_payload": 15,
+          "test_rmse": 0.31324376216655736,
+          "validation_rmse": 0.3052326467555857,
+          "alpha": 100.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "PCA-16",
+          "d_payload": 16,
+          "test_rmse": 0.3220784388957815,
+          "validation_rmse": 0.30757743905878965,
+          "alpha": 100.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "PCA-17",
+          "d_payload": 17,
+          "test_rmse": 0.32967464042114863,
+          "validation_rmse": 0.3104355574807558,
+          "alpha": 100.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "PCA-18",
+          "d_payload": 18,
+          "test_rmse": 0.3374654047459428,
+          "validation_rmse": 0.3112958938989151,
+          "alpha": 100.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "PCA-19",
+          "d_payload": 19,
+          "test_rmse": 0.3425298566494567,
+          "validation_rmse": 0.3132787330807206,
+          "alpha": 100.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "PCA-20",
+          "d_payload": 20,
+          "test_rmse": 0.3433186108721008,
+          "validation_rmse": 0.31613184436600056,
+          "alpha": 100.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "FULL-history",
+          "d_payload": 21,
+          "test_rmse": 0.18722067048128863,
+          "validation_rmse": 0.13312178868179808,
+          "alpha": 1.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "DIPS-5",
+          "d_payload": 1,
+          "test_rmse": 0.19580876169741432,
+          "validation_rmse": 0.19516634236153121,
+          "alpha": 1.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "DIPS-6M",
+          "d_payload": 2,
+          "test_rmse": 0.09885475047795611,
+          "validation_rmse": 0.10241692471674155,
+          "alpha": 1.0,
+          "rho": 0.85,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        }
+      ]
+    },
+    {
+      "system": "SYSTEM_3_MULTIVARIATE_VECTOR",
+      "task": "reconstruct total from retained channels",
+      "tolerance": 1e-10,
+      "methods": [
+        {
+          "method": "FULL",
+          "d_payload": 4,
+          "test_rmse": 0.0,
+          "validation_rmse": 0.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": true
+        },
+        {
+          "method": "DIPS-5",
+          "d_payload": 3,
+          "test_rmse": 0.0,
+          "validation_rmse": 0.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": true
+        },
+        {
+          "method": "DIPS-6M",
+          "d_payload": 3,
+          "test_rmse": 0.0,
+          "validation_rmse": 0.0,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": true
+        },
+        {
+          "method": "PCA-1",
+          "d_payload": 1,
+          "test_rmse": 0.054564998782075054,
+          "validation_rmse": 0.05771667942169614,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": false
+        },
+        {
+          "method": "PCA-2",
+          "d_payload": 2,
+          "test_rmse": 1.1335782805764267e-15,
+          "validation_rmse": 1.3944173021566784e-15,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": true
+        },
+        {
+          "method": "PCA-3",
+          "d_payload": 3,
+          "test_rmse": 1.1506728239673772e-15,
+          "validation_rmse": 1.422057702176136e-15,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": true
+        },
+        {
+          "method": "PCA-4",
+          "d_payload": 4,
+          "test_rmse": 1.1515804712683864e-15,
+          "validation_rmse": 1.422697477370336e-15,
+          "conflicts": 0,
+          "witnesses": [],
+          "feasible": true
+        }
+      ]
+    }
+  ],
+  "runtime_seconds": 1.5375380509999559,
+  "platform": "Linux-6.18.44-fc-v37-x86_64-with-glibc2.39",
+  "quantum_run": false
+}

@@ -1,0 +1,17 @@
+{
+  "name": "SYSTEM_3_MULTIVARIATE_VECTOR",
+  "seed": 2203,
+  "n": 400,
+  "ground_truth": {
+    "latent_dimension": 3,
+    "vector_rules": [
+      "v1=a+b",
+      "v2=b+c",
+      "v3=a-c",
+      "total=v1+v2-v3"
+    ]
+  },
+  "validation": {
+    "maximum_identity_error": 8.881784197001252e-16
+  }
+}

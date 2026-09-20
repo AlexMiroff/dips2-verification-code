@@ -1,0 +1,18 @@
+{
+  "name": "SYSTEM_1_GAUSSIAN",
+  "seed": 2201,
+  "n": 400,
+  "ground_truth": {
+    "latent_dimension": 2,
+    "noise_sd": 0.1,
+    "equations": [
+      "x1=z1",
+      "x2=0.8z1+0.6z2",
+      "x3=0.5z1-0.3z2+epsilon"
+    ]
+  },
+  "validation": {
+    "mean_residual": 0.0025969816957512946,
+    "max_abs_residual": 0.31635586027350304
+  }
+}

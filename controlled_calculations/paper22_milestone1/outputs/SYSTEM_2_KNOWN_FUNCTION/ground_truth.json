@@ -1,0 +1,13 @@
+{
+  "name": "SYSTEM_2_KNOWN_FUNCTION",
+  "seed": 2202,
+  "n": 400,
+  "ground_truth": {
+    "memory_rule": "m[t+1]=0.65m[t]+u[t]",
+    "response": "y[t]=tanh(0.9u[t]+0.7m[t])+shock[t]",
+    "shock_support": "uniform[-0.02,0.02]"
+  },
+  "validation": {
+    "maximum_reconstruction_error": 0.0
+  }
+}
