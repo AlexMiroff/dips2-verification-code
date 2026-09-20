@@ -1,0 +1,59 @@
+{
+  "factory": "section06_convergence",
+  "seed": 20260920,
+  "population_states": 64,
+  "sample_sizes": [
+    6,
+    12,
+    16,
+    20,
+    24,
+    32
+  ],
+  "replicates_per_size": 1500,
+  "rows": [
+    {
+      "sample_size": 6,
+      "replicates": 1500,
+      "mean_empirical_minimum": 3.2426666666666666,
+      "exact_recovery_rate": 0.0,
+      "underestimation_rate": 1.0
+    },
+    {
+      "sample_size": 12,
+      "replicates": 1500,
+      "mean_empirical_minimum": 4.792,
+      "exact_recovery_rate": 0.06266666666666666,
+      "underestimation_rate": 0.9373333333333334
+    },
+    {
+      "sample_size": 16,
+      "replicates": 1500,
+      "mean_empirical_minimum": 5.376666666666667,
+      "exact_recovery_rate": 0.396,
+      "underestimation_rate": 0.604
+    },
+    {
+      "sample_size": 20,
+      "replicates": 1500,
+      "mean_empirical_minimum": 5.73,
+      "exact_recovery_rate": 0.73,
+      "underestimation_rate": 0.27
+    },
+    {
+      "sample_size": 24,
+      "replicates": 1500,
+      "mean_empirical_minimum": 5.918,
+      "exact_recovery_rate": 0.918,
+      "underestimation_rate": 0.082
+    },
+    {
+      "sample_size": 32,
+      "replicates": 1500,
+      "mean_empirical_minimum": 5.996,
+      "exact_recovery_rate": 0.996,
+      "underestimation_rate": 0.004
+    }
+  ],
+  "result": "PASS"
+}
