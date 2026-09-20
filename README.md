@@ -13,7 +13,7 @@ The repository separates two evidential layers:
 - **Controlled calculations** are a separate Paper 2.2 practical-methods
   programme. They are not evidence of a quantum-device result.
 
-Run a theory factory from the repository root with
+Install the plotting dependency once with `python3 -m pip install -r requirements.txt`. Then run a theory factory from the repository root with
 `python3 factories/<filename>.py`. Every factory writes a machine-readable
 JSON report. The convergence factory also creates its CSV and Figures 2–3.
 
