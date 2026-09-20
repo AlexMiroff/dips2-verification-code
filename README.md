@@ -33,6 +33,10 @@ JSON report. The convergence factory also creates its CSV and Figures 2–3.
 | §13.6 | `factories/section13_distribution_factory.py` | Finite rational distribution laws and dependence witnesses |
 | Appendix A | `appendix/theorem2_sign_law_check.py` | Theorem 2 sign-law check: 343 combinations, 0 failures |
 
+## Saved reports and figures
+
+The repository includes a consolidated [factory closure report](reports/factory_closure_report.json), plus the Section 6.1 [CSV](reports/section06_convergence/convergence.csv), [report](reports/section06_convergence/report.json), [Figure 2 SVG](reports/section06_convergence/figure2_convergence.svg) and [Figure 3 SVG](reports/section06_convergence/figure3_recovery.svg). These are the artifacts generated for the v17 article snapshot.
+
 The QUBO check in §10.5 verifies a classical encoding condition only.
 **No quantum device or quantum-advantage result is reported by this repository.**
 
