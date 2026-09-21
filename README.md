@@ -35,7 +35,7 @@ JSON report. The convergence factory also creates its CSV and Figures 2–3.
 
 ## Saved reports and figures
 
-The repository includes a consolidated [factory closure report](reports/factory_closure_report.json), plus the Section 6.1 [CSV](reports/section06_convergence/convergence.csv), [report](reports/section06_convergence/report.json), [Figure 2 SVG](reports/section06_convergence/figure2_convergence.svg) and [Figure 3 SVG](reports/section06_convergence/figure3_recovery.svg). These are the artifacts generated for the v17 article snapshot.
+The repository includes a consolidated [factory closure report](reports/factory_closure_report.json), plus the Section 6.1 [CSV](reports/section06_convergence/convergence.csv), [report](reports/section06_convergence/report.json), [Figure 2 SVG](reports/section06_convergence/figure2_convergence.svg) and [Figure 3 SVG](reports/section06_convergence/figure3_recovery.svg). These are the artifacts generated for the v17 article snapshot; the published article is v18.13, archived at https://doi.org/10.5281/zenodo.22870070 (release v1.0.0 of this repository).
 
 The QUBO check in §10.5 verifies a classical encoding condition only.
 **No quantum device or quantum-advantage result is reported by this repository.**
