@@ -10,9 +10,6 @@ The repository separates two evidential layers:
   check finite witnesses and identities reported in the theoretical paper.
   They are implementation cross-checks; the general results rest on the stated
   proofs and domains in the article.
-- **Controlled calculations** are a separate Paper 2.2 practical-methods
-  programme. They are not evidence of a quantum-device result.
-
 Install the plotting dependency once with `python3 -m pip install -r requirements.txt`. Then run a theory factory from the repository root with
 `python3 factories/<filename>.py`. Every factory writes a machine-readable
 JSON report. The convergence factory also creates its CSV and Figures 2–3.
@@ -40,11 +37,16 @@ The repository includes a consolidated [factory closure report](reports/factory_
 The QUBO check in §10.5 verifies a classical encoding condition only.
 **No quantum device or quantum-advantage result is reported by this repository.**
 
-## Controlled calculations
+## Scope note (2026-10-28)
 
-`controlled_calculations/` holds independent scripts for the companion
-Paper 2.2 three-system control. Its subfolder documentation defines its scope
-and status; some arms are frozen and some are exploratory diagnostics.
+This repository is the **published DIPS II verification supplement** only
+(theory factories, cited reports/figures, release `v1.0.0` artifacts named
+in the Zenodo record). The companion **Paper 2.2** controlled practical study
+(`controlled_calculations/`) is **not** part of the published Article 2 claim
+and was removed from `main` on 2026-10-28. It is retained privately for a
+later practical paper / lab recovery line. Historical release tag `v1.0.0`
+is unchanged as a frozen snapshot; do not treat that tag's extra folder as
+current verification scope.
 
 ## License
 
